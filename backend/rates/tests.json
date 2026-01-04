@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "name": "Get exchange rates",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "rates": "object",
+        "reserves": "object",
+        "minAmounts": "object",
+        "maxAmounts": "object",
+        "timestamp": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
