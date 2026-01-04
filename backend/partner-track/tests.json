@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Track partner click without ref",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 400
+    }
+  ]
+}
